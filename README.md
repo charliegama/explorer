@@ -23,6 +23,15 @@ An open source block explorer written in node.js.
 *  mongodb 4.2.x
 *  *coind
 
+## INSTALL NODE # TEST IN UBUNTU 16.04
+
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh
+source ~/.nvm/nvm.sh
+nvm install --lts
+nvm use --lts
+npm --version # < 8.7 node version>
+
+
 ### Create database
 
 Enter MongoDB cli:
